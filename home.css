@@ -1,0 +1,96 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#header{
+    justify-content: center;
+    display: flex;
+}
+a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#library-content{
+    padding: 20px;
+}
+
+#banner{
+    padding: auto;
+    display: flex;
+    background-image: url(bglibrary.jpg);
+    justify-content: center;
+}
+
+.banner{
+    padding: 50px;
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.ourshelf{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+img{
+    margin-top: 20px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+#top-liners{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.top-liners-box, .fiction-box, .non-fiction-box, .others-box{
+    background-color: #6A9AB0;
+    color: antiquewhite;
+    flex: 0.5;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px  rgba(0, 0, 0, 0.650);
+}
+
+#fiction-section, #non-fiction-section, #others-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.fiction-section, .non-fiction-section, .others-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 25px;
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
